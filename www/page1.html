@@ -1,0 +1,25 @@
+<ons-toolbar>
+    <div class="center">Page1</div>
+</ons-toolbar>
+
+<div style="text-align: center">
+    <br />
+    <ons-button 
+        ng-click="myNavigator.pushPage('new_page.html')">
+        Push New Page
+    </ons-button>
+</div>
+
+<ul class="list">
+  <li class="list__item list__item--chevron" ng-click="myNavigator.pushPage('page3.html')">
+    Tappable Item
+  </li>
+  <li class="list__item list__item--chevron" ng-click="myNavigator.pushPage('page4.html')">
+    Tappable Item
+  </li>
+</ul>
+
+<div class="btnArea">
+<button class="button">Button</button>
+<button class="button" disabled>Button</button>
+</div>
